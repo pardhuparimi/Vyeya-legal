@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>:root{--ink:#1a2e1a;--muted:#5a6b5a;--brand:#2E7D32;--bg:#fbfdfb;--card:#ffffff;--line:#e3ece3}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+main{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+header.site{background:var(--brand);color:#fff;padding:20px}
+header.site a{color:#fff;text-decoration:none;font-weight:700;font-size:20px}
+nav a{color:#eaf5ea;text-decoration:none;margin-right:16px;font-size:14px}
+h1{font-size:28px;margin:24px 0 4px}
+h2{font-size:19px;margin-top:32px;color:var(--brand)}
+.updated{color:var(--muted);font-size:14px;margin-bottom:24px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:12px 0}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f0f7f0}
+li{margin:6px 0}
+code{background:#eef4ee;padding:1px 5px;border-radius:4px;font-size:13px}
+.note{background:#fff8e6;border:1px solid #f0e0b0;border-radius:8px;padding:12px 14px;font-size:14px}
+footer{color:var(--muted);font-size:13px;margin-top:48px;border-top:1px solid var(--line);padding-top:16px}
+@media (prefers-color-scheme:dark){:root{--ink:#e6efe6;--muted:#9db09d;--bg:#111a11;--card:#182418;--line:#2a3a2a}th{background:#1c2a1c}code{background:#223022}.note{background:#2a2410;border-color:#4a3f1a}}
+</style><title>Delete your account — Vyeya</title></head><body>
+<header class="site"><a href="index.html">🌱 Vyeya</a> &nbsp; <nav style="display:inline"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="delete-account.html">Delete Account</a></nav></header>
+<main>
+<h1>Delete your Vyeya account &amp; data</h1>
+<p class="updated">Vyeya has no servers and no sign-up: your "account" is a cryptographic key that exists only on your phone. That means deletion is done on your phone, and it is immediate.</p>
+
+<h2>In the app (recommended)</h2>
+<ol>
+<li>Open Vyeya → <strong>Profile</strong> tab.</li>
+<li>Tap <strong>Delete account</strong> and confirm.</li>
+</ol>
+<p>This permanently: erases your account key and phone number from the phone's secure keystore, wipes all local data, and publishes deletion notices so other phones drop your profile and listings from the network.</p>
+
+<h2>If you no longer have the app</h2>
+<p>Uninstalling the app removes your account key and phone number from your phone (they exist nowhere else). Your public profile and listings then expire from the network automatically (listings within 7 days, profiles within 365 days). If you want them hidden network-wide sooner, email us the name and village on the profile at <a href="mailto:pardhu.parimi@gmail.com">pardhu.parimi@gmail.com</a> and we will hide them using the app's moderation mechanism.</p>
+
+<h2>What deletion covers — honestly</h2>
+<table>
+<tr><th>Data</th><th>Deleted?</th></tr>
+<tr><td>Account key, phone number, all data on your phone</td><td>Yes — immediately and permanently</td></tr>
+<tr><td>Your profile &amp; listings on other users' phones</td><td>Yes — deletion notices propagate; also auto-expire</td></tr>
+<tr><td>Ratings/statements other users wrote about you</td><td>No — they are other people's signed statements; but once your key is destroyed nothing links them to you</td></tr>
+<tr><td>Copies on public Nostr relays</td><td>Replaced/expired per those operators' policies; email us to request network-wide hiding</td></tr>
+</table>
+
+<p class="note">Deleting your account is irreversible. If you may return, create a backup code first (Profile → Back up account) — it is the only way to recover the same identity and reputation.</p>
+
+<p>Questions: <a href="mailto:pardhu.parimi@gmail.com">pardhu.parimi@gmail.com</a> — acknowledged within 24 hours, resolved within 15 days.</p>
+<footer>© Vyeya</footer>
+</main></body></html>
