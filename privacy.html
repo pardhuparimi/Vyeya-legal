@@ -30,7 +30,8 @@ footer{color:var(--muted);font-size:13px;margin-top:48px;border-top:1px solid va
 <h2>What the app collects, and where it lives</h2>
 <table>
 <tr><th>Data</th><th>Where it is stored</th><th>Who can see it</th></tr>
-<tr><td>Name, village, state, crops</td><td>Your phone + published as your public profile</td><td><strong>Public</strong> (see below)</td></tr>
+<tr><td>Name, village, state, district (optional), crops</td><td>Your phone + published as your public profile</td><td><strong>Public</strong> (see below)</td></tr>
+<tr><td>Approximate location (optional, opt-in)</td><td>Only if you turn on "Use my location": one approximate fix, rounded to about a 1&nbsp;km grid <em>before</em> it is saved or shared — never precise GPS. Turn it off in Profile any time; that removes it from your published profile.</td><td><strong>Public</strong> (part of your profile and listings)</td></tr>
 <tr><td>Produce listings, ratings you give</td><td>Your phone + published as public records</td><td><strong>Public</strong></td></tr>
 <tr><td>Phone number</td><td>Your phone's secure keystore ONLY</td><td>Only counterparties <strong>you</strong> choose (end-to-end encrypted)</td></tr>
 <tr><td>Account key (identity)</td><td>Your phone's secure keystore</td><td>Nobody — it never leaves the phone (except in your own encrypted backup code)</td></tr>
@@ -38,7 +39,7 @@ footer{color:var(--muted);font-size:13px;margin-top:48px;border-top:1px solid va
 </table>
 
 <h2>What is PUBLIC by design</h2>
-<p>Your <strong>profile (name, village, state, crops), your listings, and the ratings you give</strong> are signed public records. That is the product: buyers must be able to find sellers. These records travel:</p>
+<p>Your <strong>profile (name, village, state, optional district, your approximate ~1&nbsp;km location if you enabled it, crops), your listings, and the ratings you give</strong> are signed public records. That is the product: buyers must be able to find sellers. These records travel:</p>
 <ul>
 <li><strong>phone-to-phone</strong> over Bluetooth/Wi-Fi to nearby Vyeya users, and</li>
 <li><strong>over the internet via public Nostr relays</strong> — third-party servers we do not operate: relay.damus.io, nos.lol, relay.primal.net, nostr.mom, relay.nostr.bg, offchain.pub.</li>
